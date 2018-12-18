@@ -10,9 +10,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-plugin-prismjs": "^1.0.2",
+    "chart.js": "^2.7.3",
     "dialog-polyfill": "^0.4.10",
     "prismjs": "^1.15.0",
     "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
     "vue-markdown": "^2.2.4",
     "vue-router": "^3.0.1"
   },
