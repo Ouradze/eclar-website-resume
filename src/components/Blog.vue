@@ -1,33 +1,22 @@
 <template>
   <div class="page-content">
-    <div class="mdl-grid"
-      v-for="article in articles"
-      :key="article.name"
-      >
+    <div class="mdl-grid">
       <div class="mdl-cell mdl-cell-centered mdl-cell--4-offset-desktop mdl-cell--4-col">
         <div class="mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__title" v-bind:class="article.image">
-            <h2 class="mdl-card__title-text">{{ article.title }}</h2>
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Not ready !</h2>
           </div>
           <div class="mdl-card__supporting-text">
             <p>
-            {{ article.published }}
-            </p>
-            <p>
-            {{ article.description }}
+            Under construction, please be patient :)
             </p>
           </div>
           <div class="mdl-card__actions mdl-card--border">
-            <router-link class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-               :to="{name:'article', params:{name: article.name}}"
-              >
-              Read
-            </router-link>
+            <div>toto</div>
           </div>
           <div class="mdl-card__menu">
-            <div class="mdl-tooltip mdl-tooltip--large" :data-mdl-for="article.name">Share</div>
+            <div class="mdl-tooltip mdl-tooltip--large">Share</div>
             <button
-              :id="article.name"
               class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
               >
               <i class="material-icons">share</i>
